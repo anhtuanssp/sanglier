@@ -1,0 +1,331 @@
+body{
+	background :url(../../../resources/imgs/bg.png);
+}
+/*--------------------------#header-------------------------*/
+#header{
+	min-height: 650px;
+	overflow: hidden;
+	margin: auto;
+	position : relative;
+}
+
+#header .header-slider{
+	min-height: 635px;
+	/*background : #fff;*/
+	display : block;
+	margin-top: 18px;
+	position: relative;
+}
+
+#header .header-slider .header-slider-wrapper{
+	  overflow: hidden;
+  height: 623px;
+}
+
+#header .menu-wrapper {
+	height : 55px;
+	background: rgba(51, 51, 51, 0.76);
+	width : 100%;
+	position : absolute;
+	bottom: 11px
+}
+
+#header .menu-wrapper ul{
+	list-style: none;
+	margin:22px 0px 0px 27px;
+}
+#header .menu-wrapper ul li{
+	display : inline-block;
+	margin-right: 65px;
+}
+#header .menu-wrapper ul a{
+	text-decoration: none;
+	color: #fff;
+	display : inline-block;
+	font-family: Interstate, arial;
+	text-transform: uppercase;
+}
+#header .menu-wrapper ul a:hover{
+	color : #16A9E0;
+}
+#header .menu-wrapper ul a.active{
+	color : #16A9E0;
+}
+.logo-wrapper{
+	position : absolute;
+	/*left : 85px;*/
+	top : 15px;
+}
+.date-countdown-header{
+	position : absolute;
+	/*left : 85px;*/
+	top :25px
+}
+.date-countdown-header .lb-header-cd{
+	font-size: 80px;
+	font-family: bebasNenus;
+	color : #fff;
+	display: block;
+}
+.date-countdown-header .lb-header-cd.september{
+font-size: 32px;
+  margin-top: -17px;
+}
+.date-countdown-header .pontalier{
+	font-size: 34px;
+	font-family: bebas;
+	color : #fff;
+	display: block;
+	margin-top: 40px;
+	margin-left: 50px
+}
+.date-countdown-header .pontalier:before{
+	content : '';
+	background : url(../../../resources/imgs/plus.png);
+	width : 23px;
+	height : 22px;
+	position : absolute;
+	left: 8px;
+  	bottom: 10px;
+}
+.date-countdown-header .pontalier:after{
+	content : '';
+	background : url(../../../resources/imgs/plus.png);
+	width : 23px;
+	height : 22px;
+	position : absolute;
+	right: -35px;
+  	bottom: 10px;
+}
+.header-slider-wrapper img{
+	width : 100%;
+}
+.header-slider-wrapper:after{
+	  content: '';
+  background: url(../../../resources/imgs/bg-slider.png);
+  /*background-color: rgba(51, 51, 51, 0.76);*/
+  position: absolute;
+  top: 0%;
+  left: 0%%;
+  background-size: cover;
+  width: 100%;
+  height: 623px;
+}
+/*------------------------------#main-wrapper-------------------------------*/
+#main-wrapper{
+	margin-top: 32px;
+}
+
+#main-wrapper .count-down-date span{
+	display : inline-block;
+	margin-right:25px 
+}
+#main-wrapper .count-down-date .icon-and{
+	display : inline-block;
+	background : url(../../../resources/imgs/polygon.png);
+	width : 97px;
+	height : 97px;
+	margin: -0px 25px -10px 0px;
+}
+
+#main-wrapper .block-count-down{
+	display : inline-block;
+	margin-right: 42px
+}
+
+#main-wrapper .block-count-down .count-down-lb{
+	text-align: center;
+	font-size: 17px;
+	font-family: Interstate,arial;
+	display : block;
+	color :#16a9e0;
+	margin-bottom: 20px;
+	margin-left: 15px
+}
+#main-wrapper .block-count-down .block-holder-countdown{
+	width : 55px;
+	height : 77px;
+	background : #16a9e0;
+	margin-bottom: 5px;
+	position : relative;
+	display : inline-block;
+}
+
+#main-wrapper .block-count-down .block-holder-countdown span{
+  color: #fff;
+  font-family: InterstateCondensedBold,arial;
+  font-size: 53px;
+  position: absolute;
+  right: -12px;
+  top: 9px;
+}
+#main-wrapper .countdown-clock{
+	margin-top: 22px;margin-left: 277px;
+}
+#main-wrapper .resultats{
+	margin : 27px 0 25px 0px;
+}
+
+#main-wrapper .main-home-content{
+	margin : 20px 0;
+}
+
+#main-wrapper .block-content-featured{
+	margin-top: 40px;
+	font-family: Interstate;
+	/*font-weight: bold;*/
+	line-height: 20px;
+	width: 360px
+}
+
+.block-content-featured h4{
+	margin-bottom: 25px
+}
+
+.block-content-featured .bx-pager.bx-default-pager {
+  position: absolute;
+  top: -55px;
+}
+.sponsor-wrapper{
+	margin-top: -12px;
+	position : relative;
+	  margin-bottom: 40px;
+}
+.sponsor-wrapper .lb-1-line{
+	width : 365px;
+	margin: 0 auto
+}
+
+.sponsor-wrapper .sponsor-next{
+	position : absolute;
+	right : 157px;
+	top: 58%;
+	cursor: pointer;
+}
+.sponsor-wrapper .sponsor-next:hover{
+	opacity: 0.7
+}
+.sponsor-wrapper .sponsor-prev{
+	position : absolute;
+	left:157px;
+	top: 58%;
+	cursor: pointer;
+}
+.sponsor-wrapper .sponsor-prev:hover{
+	opacity: 0.7
+}
+.sponsor-wrapper .bx-wrapper{
+	margin-top: 25px !important
+}
+
+
+/*----------------------------------FOOTER----------------------------------*/
+#footer-wrapper{
+	background : #333333;
+	min-height: 180px;
+	  overflow: hidden;
+	    color: #fefefe;
+	  font-family: Interstate
+}
+#footer-wrapper a{
+	text-decoration: none;
+	  color: #fefefe;
+	font-family: Interstate;
+	font-size: 14px;
+
+}
+.footer-block-wrapper{
+	margin-top: 42px;
+	margin-left: 25px;
+}
+.footer-block:first-child{
+	margin-right: 80px
+}
+.footer-block:last-child{
+	margin-right: 0px;
+	width : 195px;
+}
+.footer-block{
+	min-width: 130px;
+	/*padding: 5px;*/
+	display : inline-block;
+	margin-right: 50px;
+	 vertical-align: top;
+}
+
+.input-news-letter{
+	background :#c5c5c5;
+	height : 45px;
+	width : 300px;
+	margin-top: 18px;
+	position : relative;
+}
+.input-news-letter input{
+	width : 95%;
+	height : 100%;
+	background :#c5c5c5;
+	border : none;
+	margin-left: 5%;
+	outline : none;
+
+}
+.input-news-letter .icon-newsletter{
+	width : 23px;
+	height : 16px;
+	background : url(.././../../resources/imgs/new-letter.png);
+	position : absolute;
+	  top: 15px;
+  right: 15px;
+}
+#footer-wrapper ul{
+	margin-top: 20px;
+	list-style-type: none;
+}
+#footer-wrapper ul li{
+	margin-bottom: 25px
+}
+#footer-wrapper ul li:before{
+    color: #fff;
+    content: '> \0000a0';
+    font-size: 1.2em;
+}
+
+#footer-wrapper .fb-ul li:before{
+    color: #fff;
+    content: '';
+    /*font-size: 1.2em;*/
+   }
+
+#footer-second-wrapper{
+	min-height: 90px;
+	background : #16a9e0;
+	overflow : hidden;
+	position : relative;
+}
+#footer-second-wrapper .block-ct{
+	position : relative;
+}
+#footer-second-wrapper .info-footer p{
+	font-size: 12px;
+	font-family: Interstate;
+	color : #fff;
+
+}
+
+.info-footer{
+	margin-top: 30px;
+	margin-left: 25px
+}
+
+.copyright-footer{
+	position : absolute;
+	right : 30px;
+	top : 13px;
+	font-family: Interstate;
+	color : #fff;
+}
+
+.new-letter-block{
+	width:300px;
+
+}

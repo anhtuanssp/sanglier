@@ -1,0 +1,229 @@
+/*---------------------LOAD FONT FACE-----------------------*/
+@import url('../fonts/bebas.css');
+@import url('../fonts/bebas-neue.css');
+@import url('../fonts/interstate-BoldCondensed.css');
+@import url('../fonts/interstate.css');
+
+
+
+/*---------------------HELPER-------------------------------*/
+::-webkit-input-placeholder {
+   color: #333;
+   font-weight: bold;
+   font-family: Interstate
+}
+
+:-moz-placeholder { /* Firefox 18- */
+   color: #333;  
+   font-weight: bold;
+   font-family: Interstate
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+   color: #333;  
+   font-weight: bold;
+   font-family: Interstate
+}
+
+:-ms-input-placeholder {  
+   color: #333;  
+   font-weight: bold;
+   font-family: Interstate
+}
+* {
+   margin: 0px;
+   padding: 0px;
+}
+body{
+	font-size: 14px;
+}
+*, *:before, *:after {
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-oz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+
+.block {
+	display: block;
+}
+
+.text-right{
+	text-align: right;
+}
+.text-left{
+	text-align: left;
+}
+.text-center{
+	text-align: center;
+}
+
+.relative{
+	position: relative
+}
+.bold{
+	font-weight: bold
+}
+.block-3{
+	width : 370px;
+	margin-top: 20px;
+	display : inline-block;
+	vertical-align: top;
+	margin-right: 40px
+}
+.block-3:last-child{
+	margin-right: 0px
+}
+
+.block-full{
+	width : 100%;
+	margin: auto;
+}
+
+.block-wrapper {
+	max-width: 1600px;
+	min-width: 960px;
+	margin : 0 auto;
+}
+
+.block-ct{
+	width : 1200px;
+	margin : 0 auto;
+}
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}
+.clearfix { 
+	display: inline-block; 
+}
+
+.clearfix {
+ display: block; 
+}
+
+.blue-bg{
+	background: #16a9e0
+}
+
+/*------------------------------------LABEL---------------------------*/
+.lb-big{
+	font-size: 101px;
+	font-family: InterstateCondensedBold, arial;
+	color: #333333
+}
+
+.lb-medium{
+	font-size: 45px;
+	font-family: InterstateCondensedBold, arial;
+	color: #333333
+	
+}
+.lb-3-line{
+	display : block;
+	position : relative;
+}
+.lb-3-line:after{
+	content:'';
+	width : 77px;
+	height : 7px;
+	background : url(../../resources/imgs/threeline.png);
+	position : absolute;
+	right: -95px;
+	  top: 22px;
+
+}
+
+.lb-3-line:before{
+	content:'';
+	width : 77px;
+	height : 7px;
+	background : url(../../resources/imgs/threeline.png);
+	position : absolute;
+	left: -95px;
+	top: 22px;
+
+}
+
+.lb-header-special{
+	font-size: 32px;
+	font-family: Interstate, arial;
+	color: #333333
+}
+
+.lb-2-line{
+	display : block;
+	position : relative;
+}
+.lb-2-line:after{
+	content:'';
+	width : 53px;
+	height : 18px;
+	background : url(../../resources/imgs/twoline.png);
+	position : absolute;
+right: -63px;
+  top: 12px;
+
+}
+
+.lb-2-line:before{
+	content:'';
+	width : 53px;
+	height : 18px;
+	background : url(../../resources/imgs/twoline.png);
+	position : absolute;
+	left: -63px;
+	 top: 12px;
+
+}
+
+.lb-1-line{
+	  position: relative;
+  z-index: 1;
+  font-size: 36px;
+  font-weight: normal;
+  font-family: InterstateCondensedBold;
+  text-align: center;
+  color : #333;
+}
+.lb-1-line:before{
+  border-top: 1px solid #333;
+  content: "";
+  margin: 0 auto;
+  /* this centers the line to the full width specified */
+  position: absolute;
+  /* positioning must be absolute here, and relative positioning must be applied to the parent */
+  top: 50%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  z-index: -1;
+}
+
+.lb-1-line span{
+	background :url(../../resources/imgs/bg.png);
+  padding: 0 25px;
+}
+
+.lb-footer{
+	font-size: 25px;
+	/*font-weight: bold;*/
+	color : #fff;
+	font-family: InterstateCondensedBold,arial;
+}
+
+.lb-regular{
+	font-size: 16px;
+	font-family: Interstate,arial;
+	/*font-weight: normal*/
+	display : block;
+	}
+.blue-color{
+	color : #25aee2;
+}
